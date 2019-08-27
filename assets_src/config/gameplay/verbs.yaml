@@ -1,0 +1,15 @@
+---
+
+verbs:
+
+  - id: groove_dummy
+    icon: ui/icons/grooves/unit_action_icon_inspire.png
+    name: groove_name_dummy
+    targetColour: target
+    targetOutlineColour: target_outline                 # The colour used for the outline on a targeted tile
+    splashOutlineColour: target_outline                 # The colour used for the outline on a splash radius tile
+    targetted: true                                     # This verb targets some position on the map
+    splashRadius: 1                                     # This verb has a splash radius of 1
+    scriptName: verbs/groove_dummy            # The Lua script to run when this verb is used
+
+...

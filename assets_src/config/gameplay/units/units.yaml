@@ -1,0 +1,50 @@
+---
+
+modifyingUnitClasses:
+  - id: soldier
+    replace:
+        grooveId: exp
+  - id: spearman
+    replace:
+        grooveId: exp
+  - id: dog
+    replace:
+        grooveId: exp
+  - id: mage
+    replace:
+        grooveId: exp
+  - id: archer
+    replace:
+        grooveId: exp
+  - id: knight
+    replace:
+        grooveId: exp
+  - id: ballista
+    replace:
+        grooveId: exp
+  - id: trebuchet
+    replace:
+        grooveId: exp
+  - id: merman
+    replace:
+        grooveId: exp
+  - id: harpoonship
+    replace:
+        grooveId: exp
+  - id: turtle
+    replace:
+        grooveId: exp
+  - id: warship
+    replace:
+        grooveId: exp
+  - id: harpy
+    replace:
+        grooveId: exp
+  - id: witch
+    replace:
+        grooveId: exp        
+  - id: dragon
+    replace:
+        grooveId: exp
+
+...
