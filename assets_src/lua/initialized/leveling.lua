@@ -235,6 +235,7 @@ function Leveling.drawRankSprite(unit, rankGain)
     local rank = tonumber(Leveling.getRank(unit)) or 0
     if rank > 0 then
         if rankGain > 0 then
+            Wargroove.playMapSound("unitPromote", unit.pos)
             Leveling.setRankSpriteId(unit, Wargroove.spawnUnitEffect(unit.id, rankSprites[rank], "idle", "rankup", true))
         elseif rankGain == 0 then
             Leveling.setRankSpriteId(unit, Wargroove.spawnUnitEffect(unit.id, rankSprites[rank], "idle", "idle", true))

@@ -1,0 +1,7 @@
+TODO:
+In order of annoyance
+- UI order (after attack instead of before when anims on)
+- Balancing
+- display UI if rank given through triggers
+- alternative sfx for rankup
+- demotion UI and demotion sfx
